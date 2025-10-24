@@ -277,12 +277,13 @@ URL: http://localhost:8080/students
 Body (tab) > raw > JSON:
 
 JSON
-
+```
 {
     "name": "Arun Kumar",
     "department": "CSE",
     "email": "arun@example.com"
 }
+```
 Result: Status 200 OK and the created student object with an id (e.g., 1).
 
 2. Get All Students (GET)
@@ -307,12 +308,13 @@ URL: http://localhost:8080/students/1
 Body (tab) > raw > JSON:
 
 JSON
-
+```
 {
     "name": "Arun Kumar S",
     "department": "IT",
     "email": "arun.s@example.com"
 }
+```
 Result: Status 200 OK and the updated student object.
 
 5. Delete Student (DELETE)
